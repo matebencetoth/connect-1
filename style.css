@@ -905,7 +905,7 @@ p {
 .single-price-plan.active .package-plan,
 .single-price-plan.active .plan-button > a,
 .single-price-plan:hover .plan-button > a {
-    background-color: #fb397d;
+    background-color: #DD007D;
     opacity: 1;
 }
 
