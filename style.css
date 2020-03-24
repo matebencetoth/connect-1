@@ -383,7 +383,7 @@ p {
     min-width: 178px;
     line-height: 46px;
     text-align: center;
-    border-radius: 24px 24px 24px 24px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 .sing-up-button > a:hover {
