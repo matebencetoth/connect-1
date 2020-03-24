@@ -848,13 +848,13 @@ p {
 .single-price-plan {
     background: #ffffff;
     border: 1px solid #ebebeb;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 10px 10px 10px 10px;
     margin-bottom: 30px;
 }
 
 .single-price-plan .package-plan {
     padding: 40px 0;
-    border-radius: 30px 30px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .single-price-plan .package-plan > h5 {
