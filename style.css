@@ -498,7 +498,7 @@ p {
 .get-start-area .email:focus {
     border: none;
     outline-offset: transparent !important;
-    border-radius: 30px;
+    border-radius: 8px;
 }
 
 .get-start-area .submit {
