@@ -1093,7 +1093,7 @@ pre code {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-    column-gap: 200px
+    column-gap: 5%
   }
 
   .col-md-5 {
