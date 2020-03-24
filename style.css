@@ -1035,11 +1035,11 @@ p {
 
 .our-monthly-membership {
     background: #DD007D;
-    background: -webkit-linear-gradient(to left, #DD007D, #7873ed);
-    background: -webkit-linear-gradient(right, #DD007D, #7873ed);
-    background: -webkit-gradient(linear, right top, left top, from(#DD007D), to(#7873ed));
-    background: -o-linear-gradient(right, #DD007D, #7873ed);
-    background: linear-gradient(to left, #DD007D, #7873ed);
+    background: -webkit-linear-gradient(to left, #DD007D, #a865e1);
+    background: -webkit-linear-gradient(right, #DD007D, #a865e1);
+    background: -webkit-gradient(linear, right top, left top, from(#DD007D), to(#a865e1));
+    background: -o-linear-gradient(right, #DD007D, #a865e1);
+    background: linear-gradient(to left, #DD007D, #a865e1);
 }
 
 .membership-description > h2 {
