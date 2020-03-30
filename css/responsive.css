@@ -83,7 +83,7 @@
     }
     .welcome-thumb {
         width: 30%;
-        bottom: -100px;
+        bottom: 100px;
         right: 200px;
     }
     .video-area {
