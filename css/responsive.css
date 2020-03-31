@@ -220,7 +220,7 @@
     .welcome-thumb {
         width: 50%;
         bottom: -74px;
-        right: 50%;
+        right: 25%;
     }
     .logo_area > a > h2 {
         font-size: 40px;
@@ -306,7 +306,7 @@
     .welcome-thumb {
         bottom: -109px;
         width: 75%;
-        right: 50%;
+        right: 25%;
     }
     .wellcome-heading {
         margin-bottom: 50px;
