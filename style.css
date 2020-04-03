@@ -1313,3 +1313,13 @@ p {
 .copyright-text > p {
     margin-bottom: 0;
 }
+
+/* --------------------------
+:: 15.0 Facebook Customer Chat
+-------------------------- */
+
+.fb-customerchat {
+  position: relative;
+  bottom: 80px;
+
+}
