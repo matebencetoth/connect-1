@@ -43,18 +43,30 @@ mixpanel.init("38de4cbf96829d083e8281e6c2397998")
 
 <body>
 
-  <!-- Facebook SDK For JavaScript -->
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId            : '446362282785692',
-        autoLogAppEvents : true,
-        xfbml            : true,
-        version          : 'v6.0'
-      });
-    };
-  </script>
-  <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v6.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="446362282785692"
+  theme_color="#fb397d">
+      </div>
 
 
 
