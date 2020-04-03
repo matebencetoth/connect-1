@@ -42,6 +42,22 @@ mixpanel.init("38de4cbf96829d083e8281e6c2397998")
 </head>
 
 <body>
+
+  <!-- Facebook SDK For JavaScript -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '446362282785692',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v6.0'
+      });
+    };
+  </script>
+  <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+
+
     <!-- Preloader Start -->
     <div id="preloader">
         <div class="colorlib-load"></div>
@@ -102,7 +118,7 @@ mixpanel.init("38de4cbf96829d083e8281e6c2397998")
                     <div class="get-start-area">
                         <!-- Form Start -->
                         <form action="#" method="post" class="form-inline">
-                            <input type="email" class="form-control email" placeholder="name@company.com">
+                            <input type="email" class="form-control email" placeholder="Email address">
                             <input type="submit" class="submit" value="Get Started">
                         </form>
                         <!-- Form End -->
@@ -114,6 +130,7 @@ mixpanel.init("38de4cbf96829d083e8281e6c2397998")
         <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
             <img src="img/bg-img/welcome-img.png" height="300" alt="">
         </div>
+
     </section>
     <!-- ***** Wellcome Area End ***** -->
 
@@ -179,14 +196,14 @@ mixpanel.init("38de4cbf96829d083e8281e6c2397998")
                             <h2>My Workouts, Posted Daily</h2>
                             <p>A new approach to your daily fitness. Train with me and achieve peak physical conditioning. Whether your goals are to build muscle, or get lean, we have a program for you.</p>
                             <div class="app-download-area">
-                                <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="app-download-btn wow fadeInUp" data-wow-delay="0.1s">
                                     <!-- Google Store Btn -->
                                     <a href="#">
                                         <i class="fa fa-android"></i>
                                         <p class="mb-0"><span>Available on</span> Google Play Store</p>
                                     </a>
                                 </div>
-                                <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+                                <div class="app-download-btn wow fadeInDown" data-wow-delay="0.3s">
                                     <!-- Apple Store Btn -->
                                     <a href="#">
                                         <i class="fa fa-apple"></i>
