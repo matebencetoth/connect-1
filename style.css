@@ -920,6 +920,12 @@ p {
     opacity: 1;
 }
 
+.single-price-plan.active > h5
+.single-price-plan:hover > h5 {
+    background-color: #DD007D;
+    opacity: 1;
+}
+
 .single-price-plan.active .package-plan .ca-price > h4,
 .single-price-plan.active .package-plan .ca-price > span,
 .single-price-plan.active .package-plan > h5,
