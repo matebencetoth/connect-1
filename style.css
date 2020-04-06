@@ -448,8 +448,9 @@ p {
 .welcome-thumb {
     width: 45%;
     position: absolute;
-    bottom: 0px;
-    right: 85px;
+    left: 30%;
+    bottom: 100px;
+    right: 0;
     z-index: 9;
 }
 
@@ -551,6 +552,16 @@ p {
     position: relative;
     z-index: 3;
 }
+
+.welcome-mobile {
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+
 
 /* --------------------------
 :: 4.0 Special Area CSS

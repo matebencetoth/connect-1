@@ -13,7 +13,7 @@
         font-size: 14px;
     }
 
-    .wellcome_area {
+    .welcome_area {
         height: 900px
 
     }
@@ -47,15 +47,54 @@
         font-size: 14px;
     }
 
-    .wellcome_area {
+    .welcome-heading {
+      position: relative;
+      left: 0;
+      text-align: center;
+
+      margin: auto;
+
+    }
+
+    .welcome-heading > h3 {
+        font-size: 252px;
+        top: -100px;
+        left: 150px;
+    }
+
+    .welcome-heading > h2 {
+        font-size: 80px;
+        top: 0;
+        left: 0;
+    }
+
+    .welcome-heading > h4 {
+        font-size: 45px;
+        top: 0;
+        left: 0;
+    }
+
+    .welcome_area {
         height: 800px
 
     }
     .welcome-thumb {
         width: 40%;
-        bottom: 100px;
+        bottom: 40px;
         right: 100px;
     }
+
+    .get-start-area {
+        position: relative;
+        top: 50px;
+        left: 30%;
+        right: 0;
+      }
+
+
+    }
+
+
     .video-area {
         height: 550px;
     }
@@ -127,7 +166,7 @@
         bottom: -100px;
         right: 0;
     }
-    .wellcome-heading {
+    .welcome-heading {
         margin-bottom: 70px;
     }
     .single-special {
@@ -210,9 +249,10 @@
     .welcome_text .cd-intro > p {
         font-size: 14px;
     }
-    .wellcome-heading > h2 {
+    .welcome-heading > h2 {
         font-size: 48px;
     }
+
     .get-start-area .email {
         margin-bottom: 20px;
         max-width: 100%;
@@ -290,12 +330,12 @@
     .contact_from {
         margin-top: 30px;
     }
-    .wellcome-heading > h3 {
+    .welcome-heading > h3 {
         font-size: 252px;
         top: -105px;
         left: -1px;
     }
-    .wellcome-heading,
+    .welcome-heading,
     .single-cool-fact {
         margin-bottom: 50px;
     }
@@ -305,10 +345,10 @@
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-    .wellcome-heading > h3 {
+    .welcome-heading > h3 {
         font-size: 284px;
     }
-    .wellcome-heading > h2 {
+    .welcome-heading > h2 {
         font-size: 70px;
     }
     .welcome-thumb {
@@ -316,10 +356,10 @@
         width: 80%;
         right: 20%;
     }
-    .wellcome-heading {
+    .welcome-heading {
         margin-bottom: 50px;
     }
-    .wellcome-heading > h3 {
+    .welcome-heading > h3 {
         top: -139px;
     }
     .get-start-area .email {
@@ -328,7 +368,7 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .wellcome-heading > h3 {
+    .welcome-heading > h3 {
         font-size: 286px;
     }
     .get-start-area .email {
