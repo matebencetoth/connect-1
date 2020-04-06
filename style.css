@@ -414,7 +414,7 @@ p {
 :: 3.0 Wellcome Area CSS
 -------------------------- */
 
-.wellcome_area {
+.welcome_area {
     background-image: url(img/bg-img/welcome-bg.png);
     height: 700px;
     position: relative;
@@ -458,7 +458,7 @@ p {
     width: 100%;
 }
 
-.wellcome-heading > h2 {
+.welcome-heading > h2 {
     font-size: 100px;
     color: #ffffff;
     font-weight: 700;
@@ -524,11 +524,11 @@ p {
     transition-duration: 500ms;
 }
 
-.wellcome-heading > p {
+.welcome-heading > p {
     color: #fff;
 }
 
-.wellcome-heading > h3 {
+.welcome-heading > h3 {
     font-size: 332px;
     position: absolute;
     top: -134px;
@@ -540,11 +540,11 @@ p {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 }
 
-.wellcome-heading {
+.welcome-heading {
     margin-bottom: 100px;
 }
 
-.wellcome-heading > h4 {
+.welcome-heading > h4 {
     font-size: 30px;
     color: #ffffff;
     font-weight: 300;
@@ -697,14 +697,15 @@ p {
 
 .video-area {
     position: relative;
-    left: 0%;
+    left: 5%;
+    right: 5%;
     z-index: 1;
     background-position: center center;
     background-size: cover;
     border: 20px solid #fff;
     border-radius: 20px;
-    height: 550px;
-    width: 1110px;
+    width: 86%;
+    height: 98%;
     -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
 }
@@ -761,7 +762,7 @@ p {
     position: relative;
     z-index: auto;
     background-image: url(img/bg-img/coolfacts.jpg);
-    padding: 180px 0 80px 0;
+    padding: 200px 0 80px 0;
     top: -100px;
 }
 
