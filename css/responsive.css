@@ -60,18 +60,21 @@
         font-size: 252px;
         top: -100px;
         left: 150px;
+        text-align: center;
     }
 
     .welcome-heading > h2 {
-        font-size: 80px;
+        font-size: 70px;
         top: 0;
         left: 0;
+        text-align: center;
     }
 
     .welcome-heading > h4 {
         font-size: 45px;
         top: 0;
         left: 0;
+        text-align: center;
     }
 
     .welcome_area {
@@ -124,12 +127,32 @@
         font-size: 14px;
     }
     .welcome-thumb {
-        width: 30%;
-        bottom: 100px;
-        right: 200px;
+        width: 45%;
+        bottom: -100px;
+        left: 25%;
     }
+
+    .welcome-mobile {
+      height: 200px;
+    }
+
+    .welcome-heading > h2 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .welcome-heading > h4 {
+        text-align: center;
+    }
+
+    .get-start-area {
+        position: relative;
+        left: 25%;
+        bottom: auto;
+}
+
     .video-area {
-        height: 550px;
+        height: 465px;
     }
     .app_screenshots_slides {
         padding: 0 4%;
@@ -160,18 +183,37 @@
         opacity: 0.5
         text-align: left;
     }
+
+    .get-start-area {
+        position: relative;
+        left: 20%;
+        bottom: auto;
+    }
     .sing-up-button {
         margin-top: 30px;
         text-align: left;
     }
+    .welcome-mobile {
+        height: 150px;
+}
     .welcome-thumb {
         width: 50%;
         bottom: -100px;
-        right: 0;
+        left: 25%;
     }
     .welcome-heading {
         margin-bottom: 70px;
     }
+
+    .welcome-heading > h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .welcome-heading > h4 {
+        text-align: center;
+    }
+
     .single-special {
         padding: 30px 10px;
     }
@@ -212,7 +254,7 @@
     }
     .counter-area > h3 {
         font-size: 30px;
-    }
+     }
     .app_screenshots_slides {
         padding: 0;
     }
@@ -249,11 +291,16 @@
     .header_area {
         top: 0;
     }
+    .get-start-area {
+        position: relative;
+        left: 0;
+        bottom: auto;
+    }
     .welcome_text .cd-intro > p {
         font-size: 14px;
     }
     .welcome-heading > h2 {
-        font-size: 48px;
+        font-size: 40px;
         text-align: center;
     }
 
@@ -263,12 +310,23 @@
 
     .get-start-area .email {
         margin-bottom: 20px;
-        max-width: 100%;
+        max-width: 90%;
+        position: relative;
+        left: 5%
+    }
+    .get-start-area .submit {
+        position: relative;
+        left: 25%;
+        text-align: center;
+        margin-top: 20px;
     }
     .welcome-thumb {
-        width: 70%;
+        width: 90%;
         bottom: 0;
-        right: 25%;
+        left: 5%;
+    }
+    .welcome-mobile {
+      height: 200px;
     }
     .logo_area > a > h2 {
         font-size: 40px;
@@ -298,7 +356,7 @@
     .video-area {
         border: 10px solid #fff;
         border-radius: 20px;
-        height: 250px;
+        height: 210px;
     }
     .video-area::after {
         top: -10px;
@@ -309,14 +367,9 @@
         z-index: 2;
         border-radius: 20px;
     }
-
-  .video-btn {
-
-
-
-
-  }
-
+    .cool_facts_area {
+      padding-bottom: 0;
+    }
     .clients-feedback-area .client-description > p {
         font-size: 20px;
     }
@@ -366,13 +419,15 @@
         width: 80%;
         right: 20%;
     }
-
+    .get-start-area {
+      padding-bottom: 100px;
+    }
     .welcome-mobile {
       bottom: -90px;
-      width: 80%;
-      right: 20%;
+      width: 100%;
+      left: -35%;
+      background-color: #ffffff;
     }
-
     .welcome-heading {
         margin-bottom: 50px;
     }
@@ -382,19 +437,41 @@
     .get-start-area .email {
         max-width: 370px;
     }
+
+    .cool_facts_area {
+      height: 200px;
+
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .welcome_area {
+      height: 800px;
+    }
+
     .welcome-heading > h4 {
         text-align: center;
     }
 
     .welcome-heading > h2 {
-        font-size: 70px;
         text-align: center;
     }
 
     .get-start-area .email {
         margin-bottom: 0;
+    }
+
+    .welcome-thumb {
+        position: relative;
+        bottom: 300px;
+        left: 45%;
+
+    .cool_facts_area {
+      height: 100px;
+
+
+    }
+
+
     }
 }
