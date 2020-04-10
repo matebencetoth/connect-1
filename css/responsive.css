@@ -257,14 +257,18 @@
         text-align: center;
     }
 
+    .welcome-heading > h3 {
+        text-align: center;
+    }
+
     .get-start-area .email {
         margin-bottom: 20px;
         max-width: 100%;
     }
     .welcome-thumb {
         width: 70%;
-        bottom: -60px;
-        right: 15%;
+        bottom: 0;
+        right: 25%;
     }
     .logo_area > a > h2 {
         font-size: 40px;
