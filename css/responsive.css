@@ -257,7 +257,7 @@
         text-align: center;
     }
 
-    .welcome-heading > h3 {
+    .welcome-heading > h4 {
         text-align: center;
     }
 
@@ -354,8 +354,7 @@
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-    .welcome-heading > h3 {
-        font-size: 284px;
+    .welcome-heading > h4 {
         text-align: center;
     }
     .welcome-heading > h2 {
@@ -386,8 +385,7 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .welcome-heading > h3 {
-        font-size: 286px;
+    .welcome-heading > h4 {
         text-align: center;
     }
 
