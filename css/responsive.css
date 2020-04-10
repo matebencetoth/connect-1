@@ -350,15 +350,24 @@
 @media (min-width: 480px) and (max-width: 767px) {
     .welcome-heading > h3 {
         font-size: 284px;
+        text-align: center;
     }
     .welcome-heading > h2 {
         font-size: 70px;
+        text-align: center;
     }
     .welcome-thumb {
         bottom: -90px;
         width: 80%;
         right: 20%;
     }
+
+    .welcome-mobile {
+      bottom: -90px;
+      width: 80%;
+      right: 20%;
+    }
+    
     .welcome-heading {
         margin-bottom: 50px;
     }
