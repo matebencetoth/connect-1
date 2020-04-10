@@ -254,6 +254,7 @@
     }
     .welcome-heading > h2 {
         font-size: 48px;
+        text-align: center;
     }
 
     .get-start-area .email {
@@ -337,6 +338,7 @@
         font-size: 252px;
         top: -105px;
         left: -1px;
+        text-align: center;
     }
     .welcome-heading,
     .single-cool-fact {
@@ -367,7 +369,7 @@
       width: 80%;
       right: 20%;
     }
-    
+
     .welcome-heading {
         margin-bottom: 50px;
     }
@@ -382,7 +384,14 @@
 @media (min-width: 576px) and (max-width: 767px) {
     .welcome-heading > h3 {
         font-size: 286px;
+        text-align: center;
     }
+
+    .welcome-heading > h2 {
+        font-size: 70px;
+        text-align: center;
+    }
+
     .get-start-area .email {
         margin-bottom: 0;
     }
