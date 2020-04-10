@@ -2,7 +2,7 @@
     .menu_area .navbar-brand {
         font-size: 42px;
     }
-    .menu_area #nav .nav-link {
+    .menu_area nav .nav-link {
         padding: 35px 7.5px;
     }
     .sing-up-button > a {
@@ -14,12 +14,12 @@
     }
 
     .welcome_area {
-        height: 900px
+        height: 1000px;
 
     }
     .welcome-thumb {
         width: 30%;
-        bottom: 0px;
+        bottom: 0;
         right: 300px;
     }
     .video-area {
@@ -28,7 +28,7 @@
     .app_screenshots_slides {
         padding: 0 4%;
     }
-    .header_area.sticky .menu_area #nav .nav-link {
+    .header_area.sticky .menu_area nav .nav-link {
         padding: 23px 7.5px;
     }
 }
@@ -36,7 +36,7 @@
     .menu_area .navbar-brand {
         font-size: 42px;
     }
-    .menu_area #nav .nav-link {
+    .menu_area nav .nav-link {
         padding: 35px 7.5px;
     }
     .sing-up-button > a {
@@ -75,12 +75,12 @@
     }
 
     .welcome_area {
-        height: 800px
+        height: 1000px
 
     }
     .welcome-thumb {
         width: 40%;
-        bottom: 40px;
+        bottom: -50px;
         right: 100px;
     }
 
@@ -92,7 +92,10 @@
       }
 
 
-    }
+.welcome-mobile {
+        height: 200px;
+
+}
 
 
     .video-area {
