@@ -21,6 +21,8 @@
   }
 
   .welcome-heading {
+    position: relative;
+    bottom: 1300px;
     text-align: center;
 
     margin: auto;
@@ -49,7 +51,7 @@
   }
 
   .welcome_area {
-      height: 1000px
+      height: 1200px
 
   }
   .welcome-mobile {
@@ -63,13 +65,15 @@
 
   .get-start-area {
       position: relative;
-      top: 50px;
+      bottom: 1250px;
       left: 30%;
       right: 0;
     }
 
 
 .welcome-mobile {
+  position: relative;
+  top: -150px;
       height: 300px;
 
 }
@@ -102,6 +106,8 @@
     }
 
     .welcome-heading {
+      position: relative;
+      bottom: 1100px;
       text-align: center;
 
       margin: auto;
@@ -144,13 +150,15 @@
 
     .get-start-area {
         position: relative;
-        top: 50px;
+        bottom: 1050px;
         left: 30%;
         right: 0;
       }
 
 
 .welcome-mobile {
+  position: relative;
+  bottom: 50px;
         height: 300px;
 
 }
