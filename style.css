@@ -1349,8 +1349,8 @@ p {
 
 .fb-customerchat {
 position: -webkit-sticky !important;
-position: fixed !important;
-bottom: 50% !important;
+position: relative !important;
+bottom: 50px !important;
 right: 30px !important;
 z-index: 999;
 }
