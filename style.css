@@ -1349,7 +1349,7 @@ p {
 
 .fb-customerchat {
 position: relative !important;
-position: fixed !important;
+position: relative !important;
 bottom: 60px !important;
 right: 30px !important;
 z-index: 999;
