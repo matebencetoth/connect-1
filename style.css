@@ -1352,7 +1352,7 @@ position: -webkit-sticky !important;
 position: fixed !important;
 bottom: 50% !important;
 right: 30px !important;
-z-index: 7;
+z-index: 999;
 }
 
 }
