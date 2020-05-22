@@ -15,7 +15,7 @@
 :: 14.0 Footer Area CSS Start
 -------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 @import 'css/bootstrap.min.css';
 @import 'css/animate.css';
 @import 'css/magnific-popup.css';
@@ -35,7 +35,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     background-color: #fff;
 }
 
@@ -45,8 +45,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
     color: #000;
     line-height: 1.2;
 }
@@ -1107,7 +1107,7 @@ p {
     line-height: 45px;
     color: #fb397d;
     font-weight: 500;
-    border-radius: 23px 23px 23px 23px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 .get-started-button > a:hover {
@@ -1234,17 +1234,17 @@ p {
 #name {
     font-size: 18px;
     padding: 15px 15px;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 #email {
     font-size: 18px;
     padding: 15px 15px;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 #message {
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 .btn.submit-btn {
@@ -1253,7 +1253,7 @@ p {
     min-width: 185px;
     color: #ffffff;
     font-weight: 500;
-    border-radius: 22px 25px 22px 25px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 .btn.submit-btn:hover {
@@ -1348,12 +1348,78 @@ p {
 -------------------------- */
 
 .fb-customerchat {
-position: relative !important;
-position: relative !important;
-bottom: 60px !important;
+position: -webkit-sticky !important;
+position: fixed !important;
+bottom: 30% !important;
 right: 30px !important;
-z-index: 999;
 }
 
+}
 
+/* FEATURE */
+.feature {
+  width: 900px;
+  max-width: 100%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.feature>li {
+  height: 450px;
+  padding: 120px 2% 0 50%;
+  margin-bottom: 60px;
+  margin-left: 8%;
+}
+
+.feature>li>img {
+  position: relative;
+  top: 0;
+  right: 50%;
+  height: 100%;
+  box-shadow: -20px 20px 48px rgba(0, 0, 0, 0.3);
+}
+
+.feature>li>img, .video-item>div, .headline__feature>div>span, .blog>li>a>span {
+  border-radius: 24px;
+  -moz-border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -khtml-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+
+.feature>li:nth-of-type(even) {
+  padding: 120px 50% 0 2%;
+  margin-left: 0;
+  margin-right: 8%;
+}
+
+.feature>li:nth-of-type(even)>img {
+  left: inherit;
+  right: 10%;
+}
+
+.feature>li:nth-of-type(even)>div {
+  text-align: right;
+}
+
+.feature>li:nth-of-type(even)>div>h3:after {
+  left: inherit;
+  right: -10px;
+}
+
+.feature>li>div>h3 {
+  font-size: calc(16px + 0.7vw);
+  font-weight: 600;
+  color: #37383c;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.feature>li>div>h3:after {
+  bottom: 0;
+  left: -10px;
+  width: 60px;
+  height: 4px;
+  background: #fb397d;
 }
